@@ -61,6 +61,9 @@ h3 {
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  position: fixed; /* Set the masthead to fixed position. */
+  top: 0; /*Position the masthead at the top of the page. */
+  width: 100%; /*Full width. */
 }
 
 #logo {
@@ -236,4 +239,28 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/*These rules take effect when the browswer's width is either 980px or less.
+*/
+@media only screen and (max-width: 980px) {
+  .auth-image .work .container {
+    width: 100%;
+  }
+}
+
+/*These rules take effect when the browswer's width is either 768px or less.*/
+
+@media only screen and (max-width: 768px) {
+  .auth-image .work .container .sidebar {
+    width: 50%;
+  }
+}
+
+
+/*These rules take effect when the browswer's width is either 640px or less.*/
+@media only screen and (max-width: 640px) {
+  .auth-image .work .container {
+    width: 100%;
+  }
 }
