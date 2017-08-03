@@ -255,12 +255,26 @@ input[type=submit] {
   .work {
     width: 350px;
   }
+  .auth-image {
+    width: 100%
+  }
 }
 
 /*These rules take effect when the browswer's width is either 768px or less.*/
 @media only screen and (max-width: 768px) {
-  .auth-image .work .container .sidebar {
-    width: 50%;
+  .main-section {
+    width: 100%;
+    max-width: 720px;
+    margin-left: 20px;
+  }
+  .sidebar {
+    margin-right: 55px;
+  }
+  .work {
+    width: 350px;
+   }
+  .auth-image {
+
   }
 }
 
@@ -269,5 +283,12 @@ input[type=submit] {
 @media only screen and (max-width: 640px) {
   .auth-image .work .container {
     width: 100%;
+    height: 100%;
+  }
+  .masthead {
+    position: static;
+    width: 600px;
+    padding: 0px;
+    margin: 0px;
   }
 }
