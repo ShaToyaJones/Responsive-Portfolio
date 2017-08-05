@@ -115,7 +115,7 @@ footer {
 /* sidebar */
 
 .sidebar {
-  float: right;
+  /*float: right;*/
   width: 100%;
   max-width: 270px;
   padding: 30px;
@@ -246,7 +246,7 @@ input[type=submit] {
 @media only screen and (max-width: 980px) {
   .main-section {
     width: 100%;
-    max-width: 475px;
+    /*max-width: 475px;*/
     margin-left: 75px;
   }
   .sidebar {
@@ -271,7 +271,7 @@ input[type=submit] {
     margin-right: 55px;
   }
   .work {
-    width: 350px;
+    width: 46%;
    }
   .auth-image {
 
@@ -292,3 +292,7 @@ input[type=submit] {
     margin: 0px;
   }
 }
+/*<!-- //I kept mixing up the assignments, unfortunately.
+//I am unsure if I did the Bootstrap portion of the assignment correctly as I kept messing up the rows and columns code.
+  //I was unsure if I needed to include multiple lines of the rows and columns code.
+//I am pretty comfortable with the Responsive assignment. -->*/
